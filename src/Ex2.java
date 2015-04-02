@@ -166,17 +166,17 @@ import javax.swing.Icon;
           {
              if (imc_mulheres[0]>massa)
              {
-                string = String.format("CUIDADO!!!Voce estar abaixo do peso! IMC %.2f",massa);
+                string = String.format("CUIDADO!!! Voce estar abaixo do peso! IMC %.2f",massa);
                 foto=0;
              }
              else if((imc_mulheres[0]<massa) && (massa<=imc_mulheres[1]))
              {
-                string = String.format("PARABENS!!Voce estar com o peso ideal! IMC %.2f",massa);
+                string = String.format("PARABENS!! Voce estar com o peso ideal! IMC %.2f",massa);
                 foto=1;
              }
              else
              {
-                string = String.format("CUIDADO!!Voce estar obesa! IMC %.2f",massa);
+                string = String.format("CUIDADO!! Voce estar obesa! IMC %.2f",massa);
                 foto=2;
              }
              //configure a foto conforme a posição da variável foto
@@ -186,18 +186,18 @@ import javax.swing.Icon;
           {
              if (imc_homens[0]>massa)
              {
-                string = String.format("CUIDADO!!!Voce estar abaixo do peso! IMC %.2f",massa);
+                string = String.format("CUIDADO!!! Voce estar abaixo do peso! IMC %.2f",massa);
                 //configura a posição que será exibido a imagem
                 foto=0;
              }
              else if((imc_homens[0]<massa) && (massa<imc_homens[1]))
              {
-                string = String.format("PARABENS!!Voce estar com o peso ideal! IMC %.2f",massa);
+                string = String.format("PARABENS!! Voce estar com o peso ideal! IMC %.2f",massa);
                 foto=1;
              }
              else
              {
-                string = String.format("CUIDADO!!Voce estar obeso! IMC %.2f",massa);
+                string = String.format("CUIDADO!! Voce estar obeso! IMC %.2f",massa);
                 foto=2;
              }
              //configure a foto conforme a posição da variável foto
